@@ -1,5 +1,7 @@
 function revertString(str) {
-    return str.split("").revert().join("")
+    return str.split("").reverse().join("")
 }
+
+console.log(revertString('hello'));
 
 export default revertString;
