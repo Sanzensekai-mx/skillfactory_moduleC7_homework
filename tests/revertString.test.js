@@ -1,4 +1,4 @@
-import { revertString } from "../revertString.js";
+import revertString from '../revertString';
 
 describe('test for revertString', () => {
     it ('hello => olleh', () => {
